@@ -34,7 +34,7 @@ function LeftSidebar() {
         })}
       </div>
       <div className="mt-10 px-6">
-        <SignOutButton signOutCallback={() => router.push('/sign-in')}>
+        <SignOutButton signOutCallback={() => router.push("/sign-in")}>
           <div className="flex cursor-pointer gap-4 p-4">
             <Image
               src="/assets/logout.svg"
@@ -42,7 +42,8 @@ function LeftSidebar() {
               width={24}
               height={24}
             />
-            <p className="text-light-2 max-lg:hidden">LogOut</p>
+
+            <p className="text-light-2 max-lg:hidden">Logout</p>
           </div>
         </SignOutButton>
       </div>
