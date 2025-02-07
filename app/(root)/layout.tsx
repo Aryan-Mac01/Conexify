@@ -7,8 +7,8 @@ import RightSidebar from "@/components/shared/RightSidebar"
 import Bottombar from "@/components/shared/Bottombar"
 
 export const metadata = {
-    title: 'Conexify',
-    description: 'A Next.js 13 Conexify Application'
+  title: 'Conexify',
+  description: 'A Next.js 13 Conexify Application'
 }
 
 const inter = Inter({subsets: ["latin"]})
